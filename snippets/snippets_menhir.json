@@ -1,0 +1,68 @@
+{
+
+	"Auxiliary": {
+		"prefix": ["af", "aux"],
+		"body": ["let rec ${1:aux} ${2:args} =", "\t${0:\"TODO\"}", "in","${1} ${2}"],
+		"description": "Init an auxiliary function with an accumulator"
+	},
+
+	"Anonymous": {
+		"prefix": ["fun", "(fun)"],
+		"body": ["(fun ${1:args} -> ${0:something})"],
+		"description": "Init an anonymous function"
+	},
+
+
+
+	"Condition": {
+		"prefix": ["if"],
+		"body": ["if ${1:condition}", "then ${2:something}", "else ${0:something_else}"],
+		"description": "Init a condition operator: if"
+	},
+
+	"Compare": {
+		"prefix": ["match"],
+		"body": ["match ${1:something} with", "| ${2}\t-> ${0}", "| ${3}\t-> "],
+		"description": "Init a condition operator: match with"
+	},
+
+	"Compare a List": {
+		"prefix": ["ml", "match_list"],
+		"body": ["match ${1:liste} with", "| []\t-> ${2}", "| t::q\t-> ${0}"],
+		"description": "Init a condition operator: match with for a list"
+	},
+
+	"Compare an Option": {
+		"prefix": ["mo","match_option"],
+		"body": ["match ${1:option} with", "| None\t\t-> ${2}", "| Some x\t-> ${0}"],
+		"description": "Init a condition operator: match with for an option type"
+    },
+    
+
+
+	"Fold Left": {
+		"prefix": ["left","fold_left"],
+		"body": ["List.fold_left (fun acc t -> ${0:(t::acc)}) [] ${1:liste}"],
+		"description": "Init a list iterator: fold left"
+	},
+
+	"Fold Right": {
+		"prefix": ["right","fold_right"],
+		"body": ["List.fold_right (fun t qt -> ${0:(t::qt)}) ${1:liste} []"],
+		"description": "Init a list iterator: fold right"
+	},
+
+	"Map": {
+		"prefix": ["map"],
+		"body": ["List.map (fun elt -> ${0:elt modified}) ${1:liste}"],
+		"description": "Init a list iterator: map"
+	},
+
+
+
+	"I don't know": {
+		"prefix": ["idk","ocaml"],
+		"body": ["¯\\_(ツ)_/¯"],
+		"description": "When you end up unable to understand your own code"
+	}
+}
