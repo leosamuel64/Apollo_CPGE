@@ -52,7 +52,7 @@
 
 	"for": {
 		"prefix": ["for"],
-		"body": ["for i=${1:<début>} to ${2:<fin>}","  ", "done;"],
+		"body": ["for i=${1:<début>} to ${2:<fin>} do","  ", "done;"],
 		"description": "Init a for Loop structure"
 	},
 
