@@ -23,7 +23,7 @@
 			{
 				"language": "ocaml",
 				"path": "./snippets/snippets_ocaml.json"
-			},
+			}
 			
 		],
 		"keybindings": [
@@ -118,5 +118,6 @@
 				}
 			}
 		]
+	}
 	
 }
