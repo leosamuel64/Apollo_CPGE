@@ -1,8 +1,8 @@
-# Hermes, the state-of-the-art extension for oCaml
+# Apollo - Ocaml Extension
 
-Add **Snippets** and **KeyBindings** for oCaml.
+Original Extension : https://gitlab.com/otumn/hermes-ocaml.git
 
-Permet d'avoir une **autocompletion** et les **raccourcis** assortis pour oCaml.
+Permet d'avoir une **autocompletion** et les **raccourcis** assortis pour Ocaml adaptés pour les MP(SI).
 
 ## Features
 
@@ -33,6 +33,9 @@ Prefix | Resultat
  `test`, `let%test` | Crée un test générique
  **Comparateurs** | 
  `if` | Crée un if/then/else générique
+ `for` | Crée un for i=? to ? do ... done;
+ `forArray` | Crée un for i=0 to (Array.length ?-1) do ... done;
+ `while` | Crée un while ? do ... done;
  `match` | Un match with générique
  `ml`, `match_list` | Un match with pour les listes
  `mo`, `match_option` | Un match with pour les type option

@@ -50,6 +50,24 @@
 		"description": "Init a condition operator: if"
 	},
 
+	"for": {
+		"prefix": ["for"],
+		"body": ["for i=${1:<début>} to ${2:<fin>}","  ", "done;"],
+		"description": "Init a for Loop structure"
+	},
+
+	"forArray": {
+		"prefix": ["forArray"],
+		"body": ["for i=0 to (Array.length ${2:<Array>}-1) do","  ", "done;"],
+		"description": "Init a for Loop structure for Array"
+	},
+
+	"while": {
+		"prefix": ["while"],
+		"body": ["while ${1:<condition>} do","  ", "done;"],
+		"description": "Init a while Loop structure"
+	},
+
 	"Compare": {
 		"prefix": ["match"],
 		"body": ["match ${1:something} with", "| ${2}\t-> ${0}", "| ${3}\t-> "],

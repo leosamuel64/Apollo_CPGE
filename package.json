@@ -1,13 +1,13 @@
 {
-	"name": "hermes-ocaml",
-	"displayName": "Hermes - oCaml Extension",
-	"description": "Be the Quickest in oCaml!",
-	"version": "0.2.9",
-	"publisher": "nyakimov",
-	"icon": "images/hermes.png",
+	"name": "apollo-ocaml",
+	"displayName": "Apollo - oCaml Extension",
+	"description": "Ocaml Extension pour MP(SI)!",
+	"version": "0.1.0",
+	"publisher": "leoSAMUEL",
+	"icon": "images/apollo.png",
 	"repository": {
 		"type": "git",
-		"url": "https://gitlab.com/otumn/hermes-ocaml.git"
+		"url": "https://github.com/leosamuel64/VSCodeExtension_Ocaml"
 	},
 	"engines": {
 		"vscode": "^1.42.0"
@@ -16,7 +16,7 @@
 		"Snippets"
 	],
 	"bugs": {
-		"email": "nikita110598@mail.ru"
+		"email": "leosamuel64@gmail.com"
 	},
 	"contributes": {
 		"snippets": [
@@ -24,10 +24,7 @@
 				"language": "ocaml",
 				"path": "./snippets/snippets_ocaml.json"
 			},
-			{
-				"language": "menhir",
-				"path": "./snippets/snippets_menhir.json"
-			}
+			
 		],
 		"keybindings": [
 			{
@@ -52,7 +49,7 @@
 				"key": "alt+M alt+M",
 				"command": "editor.action.insertSnippet",
 				"when": "editorTextFocus",
-				"editorLangId": "ocaml,menhir",
+				"editorLangId": "ocaml",
 				"args": {
 					"name": "Compare"
 				}
@@ -61,7 +58,7 @@
 				"key": "alt+M alt+L",
 				"command": "editor.action.insertSnippet",
 				"when": "editorTextFocus",
-				"editorLangId": "ocaml,menhir",
+				"editorLangId": "ocaml",
 				"args": {
 					"name": "Compare a List"
 				}
@@ -70,7 +67,7 @@
 				"key": "alt+M alt+O",
 				"command": "editor.action.insertSnippet",
 				"when": "editorTextFocus",
-				"editorLangId": "ocaml,menhir",
+				"editorLangId": "ocaml",
 				"args": {
 					"name": "Compare an Option"
 				}
@@ -79,7 +76,7 @@
 				"key": "alt+F alt+G",
 				"command": "editor.action.insertSnippet",
 				"when": "editorTextFocus",
-				"editorLangId": "ocaml,menhir",
+				"editorLangId": "ocaml,",
 				"args": {
 					"name": "Fold Left"
 				}
@@ -88,7 +85,7 @@
 				"key": "alt+F alt+D",
 				"command": "editor.action.insertSnippet",
 				"when": "editorTextFocus",
-				"editorLangId": "ocaml,menhir",
+				"editorLangId": "ocaml",
 				"args": {
 					"name": "Fold Right"
 				}
@@ -97,7 +94,7 @@
 				"key": "alt+L alt+M",
 				"command": "editor.action.insertSnippet",
 				"when": "editorTextFocus",
-				"editorLangId": "ocaml,menhir",
+				"editorLangId": "ocaml",
 				"args": {
 					"name": "Map"
 				}
@@ -115,16 +112,11 @@
 				"key": "alt+!",
 				"command": "editor.action.insertSnippet",
 				"when": "editorTextFocus",
-				"editorLangId": "ocaml,menhir",
+				"editorLangId": "ocaml",
 				"args": {
 					"name": "I don't know"
 				}
 			}
 		]
-	},
-	"__metadata": {
-		"id": "8ccf9440-9fdf-405d-812c-ea4913e1454f",
-		"publisherId": "d64aa883-5ff3-48eb-8133-5cc99bbf7516",
-		"publisherDisplayName": "Nikita Yakimovich"
-	}
+	
 }
