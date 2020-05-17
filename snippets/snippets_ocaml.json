@@ -81,7 +81,7 @@
 	},
 
 	"stackpop": {
-		"prefix": ["Stack.push","spo"],
+		"prefix": ["Stack.pop","spo"],
 		"body": ["Stack.pop ${1:<pile>}"],
 		"description": "Pop an element from a Stack"
 	},
