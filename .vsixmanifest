@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Language="en-US" Id="apollo-ocaml" Version="0.1.0" Publisher="leoSAMUEL"/>
+    <Identity Language="en-US" Id="apollo-ocaml" Version="0.1.1" Publisher="leoSAMUEL"/>
     <DisplayName>Apollo - oCaml Extension</DisplayName>
     <Description xml:space="preserve">Ocaml extension pour MP(SI)</Description>
     <Tags>snippet,keybindings</Tags>
@@ -14,10 +14,10 @@
       <Property Id="Microsoft.VisualStudio.Code.ExtensionPack" Value="" />
       <Property Id="Microsoft.VisualStudio.Code.LocalizedLanguages" Value="" />
       
-        <Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/leosamuel64/VSCodeExtension_Ocaml" />
-        <Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="https://github.com/leosamuel64/VSCodeExtension_Ocaml" />
+        <Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/leosamuel64/Apollo_Ocaml" />
+        <Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="https://github.com/leosamuel64/Apollo_Ocaml" />
         
-          <Property Id="Microsoft.VisualStudio.Services.Links.Repository" Value="https://github.com/leosamuel64/VSCodeExtension_Ocaml" />
+          <Property Id="Microsoft.VisualStudio.Services.Links.Repository" Value="https://github.com/leosamuel64/Apollo_Ocaml" />
         
       
       
@@ -29,7 +29,7 @@
       
     </Properties>
     
-    <Icon>extension/images/hermes.png</Icon>
+    <Icon>extension/images/apollo.png</Icon>
   </Metadata>
   <Installation>
     <InstallationTarget Id="Microsoft.VisualStudio.Code"/>

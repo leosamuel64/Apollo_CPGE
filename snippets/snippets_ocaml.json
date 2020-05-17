@@ -52,20 +52,44 @@
 
 	"for": {
 		"prefix": ["for"],
-		"body": ["for i=${1:<début>} to ${2:<fin>} do","  ", "done;"],
+		"body": ["for i=${1:<début>} to ${2:<fin>} do","  ${3:<code>}", "done;"],
 		"description": "Init a for Loop structure"
 	},
 
 	"forArray": {
-		"prefix": ["forArray"],
-		"body": ["for i=0 to (Array.length ${2:<Array>}-1) do","  ", "done;"],
+		"prefix": ["forArray","fa"],
+		"body": ["for i=0 to (Array.length ${2:<Array>}-1) do","  ${3:<code>}", "done;"],
 		"description": "Init a for Loop structure for Array"
 	},
 
 	"while": {
 		"prefix": ["while"],
-		"body": ["while ${1:<condition>} do","  ", "done;"],
+		"body": ["while ${1:<condition>} do","  ${2:<code>}", "done;"],
 		"description": "Init a while Loop structure"
+	},
+
+	"stackcreate": {
+		"prefix": ["Stack.create","sc"],
+		"body": ["Stack.create ()"],
+		"description": "Create a new empty Stack"
+	},
+
+	"stackpush": {
+		"prefix": ["Stack.push","spu"],
+		"body": ["Stack.push ${1:<élément>} ${2:<pile>}"],
+		"description": "Push an element into a Stack"
+	},
+
+	"stackpop": {
+		"prefix": ["Stack.push","spo"],
+		"body": ["Stack.pop ${1:<pile>}"],
+		"description": "Pop an element from a Stack"
+	},
+
+	"stackisempty": {
+		"prefix": ["Stack.is_empty","sie"],
+		"body": ["Stack.is_empty ${1:<pile>}"],
+		"description": "return True when the Stack is empty"
 	},
 
 	"Compare": {

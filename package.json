@@ -1,13 +1,13 @@
 {
 	"name": "apollo-ocaml",
 	"displayName": "Apollo - oCaml Extension",
-	"description": "Ocaml Extension pour MP(SI)!",
-	"version": "0.1.0",
+	"description": "Extension Ocaml - auto-complétions et raccourcis",
+	"version": "0.1.1",
 	"publisher": "leoSAMUEL",
 	"icon": "images/apollo.png",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/leosamuel64/VSCodeExtension_Ocaml"
+		"url": "https://github.com/leosamuel64/Apollo_Ocaml"
 	},
 	"engines": {
 		"vscode": "^1.42.0"

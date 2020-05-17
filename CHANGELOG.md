@@ -1,8 +1,13 @@
 # Change Log
 
-All notable changes to the "hermes-ocaml" extension will be documented in this file.
+## Historique
 
-## History
+**(0.1.0) -- 16/05/2020 :**
+- Ajout des boucles for, while et forArray.
 
-- 16/05 Ajout des boucles for, while et forArray
-
+**(0.1.1) -- 17/05/2020 :**
+ 
+- Modification de la documentation.
+- Ajout des zones de code pour les boucles for, forArray et while.
+- Ajout du mot-clé fa pour la complétion des boucles forArray.
+- Ajout des commandes create, push, pop et is_empty pour les piles 
