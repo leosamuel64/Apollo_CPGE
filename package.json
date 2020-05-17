@@ -1,7 +1,7 @@
 {
 	"name": "apollo-ocaml",
-	"displayName": "Apollo - oCaml Extension",
-	"description": "Extension Ocaml - auto-complétions et raccourcis",
+	"displayName": "Apollo - Extension Ocaml",
+	"description": "Extension Ocaml - Maths Sup/Spé",
 	"version": "0.1.1",
 	"publisher": "leoSAMUEL",
 	"icon": "images/apollo.png",

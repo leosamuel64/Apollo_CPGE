@@ -2,8 +2,8 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
     <Identity Language="en-US" Id="apollo-ocaml" Version="0.1.1" Publisher="leoSAMUEL"/>
-    <DisplayName>Apollo - oCaml Extension</DisplayName>
-    <Description xml:space="preserve">Ocaml extension pour MP(SI)</Description>
+    <DisplayName>Apollo - Extension Ocaml</DisplayName>
+    <Description xml:space="preserve">Extension Ocaml - Maths Sup/Spé</Description>
     <Tags>snippet,keybindings</Tags>
     <Categories>Snippets</Categories>
     <GalleryFlags>Public</GalleryFlags>

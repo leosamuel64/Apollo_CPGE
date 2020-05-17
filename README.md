@@ -1,6 +1,6 @@
 # Apollo - Ocaml Extension
 
-Extension Originale : https://gitlab.com/otumn/hermes-ocaml.git
+Extension inspirée de  : https://gitlab.com/otumn/hermes-ocaml.git
 
 Version adaptée au programme d'Option Informatique de Maths Sup/Spé.
 

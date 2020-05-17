@@ -92,6 +92,7 @@
 		"description": "return True when the Stack is empty"
 	},
 
+
 	"Compare": {
 		"prefix": ["match"],
 		"body": ["match ${1:something} with", "| ${2}\t-> ${0}", "| ${3}\t-> "],
