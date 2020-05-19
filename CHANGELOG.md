@@ -16,3 +16,8 @@
         - push 
         - pop 
         - is_empty
+
+**(0.1.1.1) -- 19/05/2020 :**
+
+- Correction de l'affichage pour Stack.pop
+- Correction de l'ajout automatique de zone d'argument pour Stack.push
