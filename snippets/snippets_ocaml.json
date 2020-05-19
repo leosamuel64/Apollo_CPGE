@@ -76,7 +76,7 @@
 
 	"stackpush": {
 		"prefix": ["Stack.push","spu"],
-		"body": ["Stack.push ${1:<élément>} ${2:<pile>}"],
+		"body": ["Stack.push ${1:<élément>}  ${2:<pile>} "],
 		"description": "Push an element into a Stack"
 	},
 
