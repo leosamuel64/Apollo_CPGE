@@ -11,13 +11,23 @@
 - Ajout des zones de code pour les boucles for, forArray et while.
 - Ajout du mot-clé fa pour la complétion des boucles forArray.
 - Ajout des commandes :
-    - Pile : 
+    - Stack : 
         - create 
         - push 
         - pop 
         - is_empty
 
-**(0.1.1.1) -- 19/05/2020 :**
+**(0.1.2) -- 19/05/2020 :**
 
-- Correction de l'affichage pour Stack.pop
-- Correction de l'ajout automatique de zone d'argument pour Stack.push
+- Correction de bugs :
+    - Correction de l'affichage pour Stack.pop.
+    - Correction de l'ajout automatique de zone d'argument pour Stack.push.
+- Ajout des commandes :
+    - Queue :
+        - create
+        - add
+        - take
+        - is_empty
+    - matchTreeBin
+- Amélioration :
+    - Structure des arbres binaires dans la fonction treeInit.

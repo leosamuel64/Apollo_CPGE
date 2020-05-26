@@ -74,11 +74,30 @@
 		"description": "Create a new empty Stack"
 	},
 
+	"queuecreate": {
+		"prefix": ["Queue.create",],
+		"body": ["Queue.create ()"],
+		"description": "Create a new empty Queue"
+	},
+
 	"stackpush": {
 		"prefix": ["Stack.push","spu"],
 		"body": ["Stack.push ${1:<élément>}  ${2:<pile>} "],
 		"description": "Push an element into a Stack"
 	},
+
+	"queueadd": {
+		"prefix": ["Queue.add"],
+		"body": ["Queue.add ${1:<élément>}  ${2:<file>} "],
+		"description": "Add an element into a Queue"
+	},
+
+	"queuetake": {
+		"prefix": ["Queue.take"],
+		"body": ["Queue.take ${1:<file>}"],
+		"description": "Take an element from a Queue"
+	},
+
 
 	"stackpop": {
 		"prefix": ["Stack.pop","spo"],
@@ -92,6 +111,11 @@
 		"description": "return True when the Stack is empty"
 	},
 
+	"queueisempty": {
+		"prefix": ["Queue.is_empty"],
+		"body": ["Queue.is_empty ${1:<file>}"],
+		"description": "return True when the Queue is empty"
+	},
 
 	"Compare": {
 		"prefix": ["match"],
@@ -113,13 +137,20 @@
     
 
 
+
+
 	"Binary Tree": {
-		"prefix": ["tree","arbre_bin"],
-		"body": ["type 'a arbre_bin = ", "| Empty", "| Node of 'a arbre_bin * 'a * 'a arbre_bin","",
-		"let test_tree = (Node(Node(Empty, 1, Empty), 2, Node(Empty, 3, Empty)))"],
-		"description": "Init a binary tree type"
+		"prefix": ["treeInit","arbre_bin"],
+		"body": ["type 'a arbreBinaire = Vide | Noeud of ('a arbreBinaire * 'a * 'a arbreBinaire) ;;", "let feuille x = Noeud(Vide, x, Vide);;","let exemple = Noeud (Noeud(Vide, 2, feuille 1),5,Noeud(Vide,3,Noeud(Noeud(Vide, 0, Vide),2,Vide)));;"],
+		"description": "Init a binary tree type with exemple"
 	},
 
+	"Binary Tree match": {
+		"prefix": ["matchTreeBin"],
+		"body": ["let rec affiche_arbre_suff=function","|Vide -> ${1:<code>} ","|Noeud(fg,e,fd) ->${2:<code>}",";;"],
+		"description": "Init a binary tree type with exemple"
+	},
+	
 	"Non Binary Tree": {
 		"prefix": ["tree-n","arbre_naire"],
 		"body": ["type 'a arbre_naire = ", "| Node of 'a * 'a arbre_naire list","",
@@ -143,8 +174,6 @@
 		"let%test _ = fils arbre_test = [(Node(5,[]));(Node(13,[]));(Node(42,[]))]"],
 		"description": "Init a non binary tree type and getters"
 	},
-
-
     
 	"Fold Left": {
 		"prefix": ["left","fold_left"],

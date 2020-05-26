@@ -43,8 +43,9 @@ Prefix | Resultat
  `forArray`, `fa` | Crée un for i=0 to (Array.length ?-1) do ... done;
  `while` | Crée un while ? do ... done;
  **Arbres** |
- `tree`, `arbre_bin` | Crée un type d'arbre binaire générique avec un arbre de test
+ `treeInit`, `arbre_bin` | Crée un type d'arbre binaire générique avec un arbre de test
  `tree-n`, `arbre_naire` | Crée un type d'arbre n-aire générique avec un arbre de test et les getters
+ `matchTreeBin`| Crée un match pour un arbre Binaire
  **Listes** | 
  `left`, `fold_left` | Un List.map generique
  `right`, `fold_right` | Un List.fold_left generique
@@ -55,5 +56,10 @@ Prefix | Resultat
  `Stack.push`, `spu` | Un Stack.push classique
  `Stack.pop`, `spo` | Un Stack.pop classique
  `Stack.is_empty`, `sie` | Un Stack.is_empty classique
+  **File** | 
+ `Queue.create` | Ajoute Queue.create classique
+ `Queue.add` | Un Queue.add classique
+ `Queue.take` | Un Queue.take classique
+ `Queue.is_empty` | Un Queue.is_empty classique
 
 
