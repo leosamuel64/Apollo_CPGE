@@ -147,7 +147,7 @@
 
 	"Binary Tree match": {
 		"prefix": ["matchTreeBin"],
-		"body": ["let rec affiche_arbre_suff=function","|Vide -> ${1:<code>} ","|Noeud(fg,e,fd) ->${2:<code>}",";;"],
+		"body": ["let rec affiche_arbre_suff=function","| Vide -> ${1:<code>} ","| Noeud(fg,e,fd) -> ${2:<code>}",";;"],
 		"description": "Init a binary tree type with exemple"
 	},
 	

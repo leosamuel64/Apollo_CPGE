@@ -17,7 +17,7 @@
         - pop 
         - is_empty
 
-**(0.1.2) -- 19/05/2020 :**
+**(0.1.2) -- 26/05/2020 :**
 
 - Correction de bugs :
     - Correction de l'affichage pour Stack.pop.
