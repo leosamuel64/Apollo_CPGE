@@ -1,8 +1,0 @@
-Ajouter les id pour les list
-List.iter au lieu/ en plus de iter
-
-Ajouter List.assoc strid list
-
-fonctions des dictionnaires
-
-Fonctions des Array

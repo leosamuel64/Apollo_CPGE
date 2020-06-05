@@ -75,10 +75,12 @@
 	},
 
 	"queuecreate": {
-		"prefix": ["Queue.create",],
+		"prefix": ["Queue.create"],
 		"body": ["Queue.create ()"],
 		"description": "Create a new empty Queue"
 	},
+
+
 
 	"stackpush": {
 		"prefix": ["Stack.push","spu"],
@@ -116,6 +118,37 @@
 		"body": ["Queue.is_empty ${1:<file>}"],
 		"description": "return True when the Queue is empty"
 	},
+
+	"hashcreate": {
+		"prefix": ["Hashtbl.create"],
+		"body": ["Hashtbl.create ${1:<longueur>}"],
+		"description": "Créer une table de hashage d'une certaine longueur"
+	},
+
+	"hashadd": {
+		"prefix": ["Hashtbl.add"],
+		"body": ["Hashtbl.add ${0:<Dico>} ${1:<clef>} ${2:<valeur>}"],
+		"description": "Ajoute un élément dans le dico"
+	},
+
+	"hashfind": {
+		"prefix": ["Hashtbl.find"],
+		"body": ["Hashtbl.find ${0:<dico>} ${1:<clef>}"],
+		"description": "Retourne la valeur associé à la clef"
+	},
+
+	"hashmem": {
+		"prefix": ["Hashtbl.mem"],
+		"body": ["Hashtbl.mem ${0:<dico>} ${1:<clef>}"],
+		"description": "Teste si une clef est présente dans un dico"
+	},
+
+	"hashremove": {
+		"prefix": ["Hashtbl.remove"],
+		"body": ["Hashtbl.remove ${0:<dico>} ${1:<clef>}"],
+		"description": "Enlève une clef du dico"
+	},
+
 
 	"Compare": {
 		"prefix": ["match"],
@@ -188,18 +221,34 @@
 	},
 
 	"Map": {
-		"prefix": ["map"],
+		"prefix": ["map","List.map"],
 		"body": ["List.map (fun elt -> ${0:elt modified}) ${1:liste}"],
-		"description": "Init a list iterator: map"
+		"description": "appliquer une fonction à chaque élément"
 	},
 
 	"Iteration": {
-		"prefix": ["iter"],
+		"prefix": ["iter","List.iter"],
 		"body": ["List.iter (fun elt -> ${0:elt modified}) ${1:liste}"],
-		"description": "Init a list iterator: iter (map for display)"
+		"description": "appliquer une procédure à chaque élément"
 	},
 
+	"listmem": {
+		"prefix": ["List.mem"],
+		"body": ["List.mem ${0:element} ${1:liste}"],
+		"description": "Teste si l'élément est présent dans la liste"
+	},
 
+	"listfilter": {
+		"prefix": ["List.filter"],
+		"body": ["List.filter ${0:predicat} ${1:liste}"],
+		"description": "Garde dans la liste les éléments compatible avec le prédicat"
+	},
+
+	"listexemple": {
+		"prefix": ["Listexemple"],
+		"body": ["let ${0:nom} = [1;2;3;4;5;6;7;8;9];;"],
+		"description": "Ajoute une liste d'exemple"
+	},
 
 	"I don't know": {
 		"prefix": ["idk","ocaml"],

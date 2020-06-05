@@ -31,3 +31,17 @@
     - matchTreeBin
 - Amélioration :
     - Structure des arbres binaires dans la fonction treeInit.
+
+**(0.1.3) -- 05/06/2020 :**
+
+- Ajout des commandes :
+    -List :
+        - filter
+        - mem
+    - Hashtbl :
+        - create
+        - add
+        - find
+        - mem
+        - remove
+        

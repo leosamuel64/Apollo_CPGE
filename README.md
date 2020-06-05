@@ -49,8 +49,10 @@ Prefix | Resultat
  **Listes** | 
  `left`, `fold_left` | Un List.map generique
  `right`, `fold_right` | Un List.fold_left generique
- `map` | Un List.map generique
- `iter` | Un List.iter generique
+ `map`,`List.map` | Un List.map generique
+ `iter`, `List.filter` | Un List.iter generique
+ `List.filter` | Garde dans la liste les éléments compatible avec le prédicat
+ `List.mem` | Teste si l'élément est présent dans la liste
  **Piles** | 
  `Stack.create`, `sc` | Ajoute Stack.create classique
  `Stack.push`, `spu` | Un Stack.push classique
@@ -61,5 +63,10 @@ Prefix | Resultat
  `Queue.add` | Un Queue.add classique
  `Queue.take` | Un Queue.take classique
  `Queue.is_empty` | Un Queue.is_empty classique
-
+  **Hashtbl** | 
+ `Hashtbl.create` | Créer une table de hashage d'une certaine longueur
+ `Hashtbl.add` | Ajoute un élément dans le dico
+ `Hashtbl.take` | Retourne la valeur associé à la clef
+ `Hashtbl.is_empty` | Teste si une clef est présente dans un dico
+ `Hashtbl.remove` | Enlève une clef du dico
 
