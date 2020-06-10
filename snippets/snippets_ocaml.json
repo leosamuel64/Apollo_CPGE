@@ -127,25 +127,25 @@
 
 	"hashadd": {
 		"prefix": ["Hashtbl.add"],
-		"body": ["Hashtbl.add ${0:<Dico>} ${1:<clef>} ${2:<valeur>}"],
+		"body": ["Hashtbl.add ${0:<dict>} ${1:<key>} ${2:<value>}"],
 		"description": "Ajoute un élément dans le dico"
 	},
 
 	"hashfind": {
 		"prefix": ["Hashtbl.find"],
-		"body": ["Hashtbl.find ${0:<dico>} ${1:<clef>}"],
+		"body": ["Hashtbl.find ${0:<dict>} ${1:<key>}"],
 		"description": "Retourne la valeur associé à la clef"
 	},
 
 	"hashmem": {
 		"prefix": ["Hashtbl.mem"],
-		"body": ["Hashtbl.mem ${0:<dico>} ${1:<clef>}"],
+		"body": ["Hashtbl.mem ${0:<dict>} ${1:<key>}"],
 		"description": "Teste si une clef est présente dans un dico"
 	},
 
 	"hashremove": {
 		"prefix": ["Hashtbl.remove"],
-		"body": ["Hashtbl.remove ${0:<dico>} ${1:<clef>}"],
+		"body": ["Hashtbl.remove ${0:<dict>} ${1:<key>}"],
 		"description": "Enlève une clef du dico"
 	},
 
@@ -489,7 +489,44 @@
 		"body": ["⟦"],
 		"description": "⟦"
 	},
+
+	"not=": {
+		"prefix": ["!=","<>"],
+		"body": ["≠"],
+		"description": "≠"
+	},
+
+	"R": {
+		"prefix": ["RR"],
+		"body": ["ℝ"],
+		"description": "ℝ"
+	},
+
+	"Z": {
+		"prefix": ["ZZ"],
+		"body": ["ℤ"],
+		"description": "ℤ"
+	},
+
+	"N": {
+		"prefix": ["NN"],
+		"body": ["ℕ"],
+		"description": "ℕ"
+	},
+
+	"C": {
+		"prefix": ["CC"],
+		"body": ["ℂ"],
+		"description": "ℂ"
+	},
+
+	"inter": {
+		"prefix": ["inter"],
+		"body": ["∩"],
+		"description": "∩"
+	},
 	
+
 
 	
 	"I don't know": {
