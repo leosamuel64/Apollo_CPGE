@@ -3,7 +3,10 @@
 ## Historique
 
 **(0.1.0) -- 16/05/2020 :**
-- Ajout des boucles for, while et forArray.
+- Ajout des commandes :
+    - for
+    - while
+    - forArray
 
 **(0.1.1) -- 17/05/2020 :**
  
@@ -44,4 +47,30 @@
         - find
         - mem
         - remove
+
+**(0.1.4) -- 10/06/2020 :**
+
+- Correction de bugs:
+    - Bug d'ajout des arguments en fonction de l'ordre alphabétique
+- Ajout des commandes :
+    - Array :
+        - make
+        - length
+        - concat
+        - copy
+        - map
+        - iter
+    - List :
+        - hd
+        - tl
+        - length
+    - String :
+        - make
+        - length
+    - Random :
+        - float
+        - int
+    - Lettres grecques
+    - Symboles Mathématiques
+    
         

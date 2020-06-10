@@ -127,26 +127,92 @@
 
 	"hashadd": {
 		"prefix": ["Hashtbl.add"],
-		"body": ["Hashtbl.add ${0:<dict>} ${1:<key>} ${2:<value>}"],
+		"body": ["Hashtbl.add ${1:<dict>} ${2:<key>} ${3:<value>}"],
 		"description": "Ajoute un élément dans le dico"
 	},
 
 	"hashfind": {
 		"prefix": ["Hashtbl.find"],
-		"body": ["Hashtbl.find ${0:<dict>} ${1:<key>}"],
+		"body": ["Hashtbl.find ${1:<dict>} ${2:<key>}"],
 		"description": "Retourne la valeur associé à la clef"
 	},
 
 	"hashmem": {
 		"prefix": ["Hashtbl.mem"],
-		"body": ["Hashtbl.mem ${0:<dict>} ${1:<key>}"],
+		"body": ["Hashtbl.mem ${1:<dict>} ${2:<key>}"],
 		"description": "Teste si une clef est présente dans un dico"
 	},
 
 	"hashremove": {
 		"prefix": ["Hashtbl.remove"],
-		"body": ["Hashtbl.remove ${0:<dict>} ${1:<key>}"],
+		"body": ["Hashtbl.remove ${1:<dict>} ${2:<key>}"],
 		"description": "Enlève une clef du dico"
+	},
+
+	"arraymake": {
+		"prefix": ["Array.make"],
+		"body": ["Array.make ${1:<len>} ${2:<value>}"],
+		"description": "Créer un tableau (mutable) de longueur len remplie de value "
+	},
+
+	"arraylen": {
+		"prefix": ["Array.length"],
+		"body": ["Array.length ${1:<tableau>}"],
+		"description": "Renvoie la longueur du tableau  "
+	},
+
+	"arrayconcat": {
+		"prefix": ["Array.concat"],
+		"body": ["Array.concat [${1:<t1>};${2:<t2>}]"],
+		"description": "Concat les tableaux d'une liste de tableaux"
+	},
+
+	"arraycp": {
+		"prefix": ["Array.copy"],
+		"body": ["Array.copy ${1:<tableau>}"],
+		"description": "Fait une vrai copie du tableau"
+	},
+
+	"arraymap": {
+		"prefix": ["Array.map"],
+		"body": ["Array.map (${1:<fun>}) ${2:<t>}"],
+		"description": "applique une fonction à un tableau"
+	},
+
+	"arrayiter": {
+		"prefix": ["Array.iter"],
+		"body": ["Array.iter (${1:<fun>}) ${2:<t>}"],
+		"description": "applique une procédure à un tableau"
+	},
+
+	"listhd": {
+		"prefix": ["List.hd"],
+		"body": ["List.hd ${1:<l>}"],
+		"description": "Renvoie la tête de la liste"
+	},
+
+	"listtl": {
+		"prefix": ["List.tl"],
+		"body": ["List.tl ${1:<l>}"],
+		"description": "Renvoie la queue de la liste"
+	},
+
+	"listlength": {
+		"prefix": ["List.length"],
+		"body": ["List.length ${1:<l>}"],
+		"description": "Renvoie la longueur de la liste"
+	},
+
+	"randint": {
+		"prefix": ["Random.int"],
+		"body": ["Random.int ${1:<n>}"],
+		"description": "Renvoie un entier aléatoire de ⟦0,n⟧"
+	},
+
+	"randfloat": {
+		"prefix": ["Random.float"],
+		"body": ["Random.float ${1:<n>}"],
+		"description": "Renvoie un flottant aléatoire de [0,n] "
 	},
 
 
@@ -166,12 +232,20 @@
 		"prefix": ["mo","match_option"],
 		"body": ["match ${1:option} with", "| None\t\t-> ${2}", "| Some x\t-> ${0}"],
 		"description": "Init a condition operator: match with for an option type"
-    },
+	},
+	
+	"stringmake": {
+		"prefix": ["String.make"],
+		"body": ["String.make ${1:<len>} ${2:<value>}"],
+		"description": "Créer une chaine de charactere de longueur len remplie de value "
+	},
+
+	"stringlen": {
+		"prefix": ["String.length"],
+		"body": ["String.length ${0:<tableau>}"],
+		"description": "Créer un tableau (mutable) de longueur len remplie de value "
+	},
     
-
-
-
-
 	"Binary Tree": {
 		"prefix": ["treeInit","arbre_bin"],
 		"body": ["type 'a arbreBinaire = Vide | Noeud of ('a arbreBinaire * 'a * 'a arbreBinaire) ;;", "let feuille x = Noeud(Vide, x, Vide);;","let exemple = Noeud (Noeud(Vide, 2, feuille 1),5,Noeud(Vide,3,Noeud(Noeud(Vide, 0, Vide),2,Vide)));;"],
@@ -526,7 +600,17 @@
 		"description": "∩"
 	},
 	
+	"forall": {
+		"prefix": ["forall"],
+		"body": ["∀"],
+		"description": "∀"
+	},
 
+	"exists": {
+		"prefix": ["exists"],
+		"body": ["∃"],
+		"description": "∃"
+	},
 
 	
 	"I don't know": {

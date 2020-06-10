@@ -53,20 +53,40 @@ Prefix | Resultat
  `iter`, `List.filter` | Un List.iter generique
  `List.filter` | Garde dans la liste les éléments compatible avec le prédicat
  `List.mem` | Teste si l'élément est présent dans la liste
+ `List.length` | Renvoie la longueur de la liste
+ `List.hd` | Renvoie la tête de la liste
+ `List.tl` | Renvoie la queue de la liste
+   **Tableaux (mutables)** | 
+ `Array.make` | Créer un tableau
+ `Array.length` | Renvoie la longueur du tableau
+ `Array.concat` | Concat les tableaux d'une liste de tableaux
+ `Array.copy` | Fait une vrai copie du tableau
+ `Array.map` | Applique une fonction à un tableau
+ `Array.iter` | Applique une procédure à un tableau
  **Piles** | 
  `Stack.create`, `sc` | Ajoute Stack.create classique
  `Stack.push`, `spu` | Un Stack.push classique
  `Stack.pop`, `spo` | Un Stack.pop classique
  `Stack.is_empty`, `sie` | Un Stack.is_empty classique
-  **File** | 
+  **Files** | 
  `Queue.create` | Ajoute Queue.create classique
  `Queue.add` | Un Queue.add classique
  `Queue.take` | Un Queue.take classique
  `Queue.is_empty` | Un Queue.is_empty classique
-  **Hashtbl** | 
+  **Tables de hashage** | 
  `Hashtbl.create` | Créer une table de hashage d'une certaine longueur
  `Hashtbl.add` | Ajoute un élément dans le dico
  `Hashtbl.take` | Retourne la valeur associé à la clef
  `Hashtbl.is_empty` | Teste si une clef est présente dans un dico
  `Hashtbl.remove` | Enlève une clef du dico
+  **Random** | 
+ `Random.int` | Renvoie un entier aléatoire de ⟦0,n⟧
+ `random.float` | Renvoie un entier aléatoire de [0,n]
+  **Chaines de caractères** | 
+ `String.make` | Créer une chaine de caractère
+ `String.length` | Renvoie la longueur de la chaine de caractère
+  **Symboles spéciaux** | 
+ `Lettre grecques` | alpha, beta ...
+ `Symboles Mathématiques` | NN, RR, [[, in, forall ... 
+
 
