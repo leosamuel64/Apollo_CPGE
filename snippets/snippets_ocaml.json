@@ -250,6 +250,248 @@
 		"description": "Ajoute une liste d'exemple"
 	},
 
+	"alpha": {
+		"prefix": ["alpha"],
+		"body": ["α"],
+		"description": "α"
+	},
+
+	"beta": {
+		"prefix": ["beta"],
+		"body": ["β"],
+		"description": "β"
+	},
+
+	"gamma": {
+		"prefix": ["gamma"],
+		"body": ["γ"],
+		"description": "γ"
+	},
+
+	"Gamma": {
+		"prefix": ["Gamma"],
+		"body": ["Γ"],
+		"description": "Γ"
+	},
+
+	"delta": {
+		"prefix": ["delta"],
+		"body": ["δ"],
+		"description": "δ"
+	},
+
+	"Delta": {
+		"prefix": ["Delta"],
+		"body": ["Δ"],
+		"description": "Δ"
+	},
+
+	"epsilon": {
+		"prefix": ["epsilon"],
+		"body": ["ε"],
+		"description": "ε"
+	},
+
+	
+	"zeta": {
+		"prefix": ["zeta"],
+		"body": ["ζ"],
+		"description": "ζ"
+	},
+
+	"eta": {
+		"prefix": ["eta"],
+		"body": ["η"],
+		"description": "η"
+	},
+
+	"theta": {
+		"prefix": ["theta"],
+		"body": ["θ"],
+		"description": "θ"
+	},
+
+	"Theta": {
+		"prefix": ["Theta"],
+		"body": ["Θ"],
+		"description": "Θ"
+	},
+
+	"iota": {
+		"prefix": ["iota"],
+		"body": ["ι"],
+		"description": "ι"
+	},
+
+	"kappa": {
+		"prefix": ["kappa"],
+		"body": ["κ"],
+		"description": "κ"
+	},
+
+	"lambda": {
+		"prefix": ["lambda"],
+		"body": ["λ"],
+		"description": "λ"
+	},
+
+	"Lambda": {
+		"prefix": ["Lambda"],
+		"body": ["Λ"],
+		"description": "Λ"
+	},
+
+	"ksi": {
+		"prefix": ["ksi"],
+		"body": ["ξ"],
+		"description": "ξ"
+	},
+	
+	"Ksi": {
+		"prefix": ["Ksi"],
+		"body": ["Ξ"],
+		"description": "Ξ"
+	},
+
+	"pi": {
+		"prefix": ["pi"],
+		"body": ["π"],
+		"description": "π"
+	},
+
+	"Pi": {
+		"prefix": ["Pi"],
+		"body": ["Π"],
+		"description": "Π"
+	},
+
+	"rho": {
+		"prefix": ["rho"],
+		"body": ["ρ"],
+		"description": "ρ"
+	},
+	
+	"sigma": {
+		"prefix": ["sigma"],
+		"body": ["σ"],
+		"description": "σ"
+	},
+
+	"Sigma": {
+		"prefix": ["Sigma"],
+		"body": ["Σ"],
+		"description": "Σ"
+	},
+
+	"tau": {
+		"prefix": ["tau"],
+		"body": ["τ"],
+		"description": "τ"
+	},
+
+	"upsilon": {
+		"prefix": ["upsilon"],
+		"body": ["υ"],
+		"description": "υ"
+	},
+
+	"phi": {
+		"prefix": ["phi"],
+		"body": ["ϕ"],
+		"description": "ϕ"
+	},
+
+	"Phi": {
+		"prefix": ["Phi"],
+		"body": ["Φ"],
+		"description": "Φ"
+	},
+
+	"chi": {
+		"prefix": ["chi"],
+		"body": ["χ"],
+		"description": "χ"
+	},
+
+	"psi": {
+		"prefix": ["psi"],
+		"body": ["ψ"],
+		"description": "ψ"
+	},
+
+	"Psi": {
+		"prefix": ["Psi"],
+		"body": ["Ψ"],
+		"description": "Ψ"
+	},
+
+	"omega": {
+		"prefix": ["omega"],
+		"body": ["ω"],
+		"description": "ω"
+	},
+
+	"Omega": {
+		"prefix": ["Omega"],
+		"body": ["Ω"],
+		"description": "Ω"
+	},
+
+	"leq": {
+		"prefix": ["<=","=<"],
+		"body": ["≤"],
+		"description": "≤"
+	},
+	"geq": {
+		"prefix": [">=","=>"],
+		"body": ["≥"],
+		"description": "≥"
+	},
+
+	"approx": {
+		"prefix": ["approx"],
+		"body": ["≈"],
+		"description": "≈"
+	},
+
+	"sqrt": {
+		"prefix": ["sqrt"],
+		"body": ["√"],
+		"description": "√"
+	},
+
+	"infinity": {
+		"prefix": ["infinity","inf"],
+		"body": ["∞"],
+		"description": "∞"
+	},
+
+	"EmptySet": {
+		"prefix": ["EmptySet","EnsembleVide"],
+		"body": ["∅"],
+		"description": "∅"
+	},
+
+	"in": {
+		"prefix": ["in"],
+		"body": ["∈"],
+		"description": "∈"
+	},
+
+	"r]]": {
+		"prefix": ["]]","|]"],
+		"body": ["⟧"],
+		"description": "⟧"
+	},
+
+	"l[[": {
+		"prefix": ["[[","[|"],
+		"body": ["⟦"],
+		"description": "⟦"
+	},
+	
+
+	
 	"I don't know": {
 		"prefix": ["idk","ocaml"],
 		"body": ["¯\\_(ツ)_/¯"],

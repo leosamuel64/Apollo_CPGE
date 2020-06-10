@@ -8,4 +8,8 @@ Meme chose pour List
 
 
 Corriger le probleme d'ordre de selection
-(Present sur Hashtbl.add par exemple (Ordre Alphabetique ? ))
+(Present sur Hashtbl.add par exemple (Ordre Alphabetique  ))
+
+
+Aouter les lettres grecs  DONE;
+Ajouter les signes maths DONE;
