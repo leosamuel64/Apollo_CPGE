@@ -38,7 +38,7 @@
 **(0.1.3) -- 05/06/2020 :**
 
 - Ajout des commandes :
-    -List :
+    - List :
         - filter
         - mem
     - Hashtbl :
@@ -73,4 +73,7 @@
     - Lettres grecques
     - Symboles Mathématiques
     
-        
+**(0.1.5) -- SOON :** 
+
+- Modification : 
+    - ReadMe : Ajout de la liste des extensions utiles.
