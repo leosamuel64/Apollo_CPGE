@@ -512,12 +512,12 @@
 	},
 
 	"leq": {
-		"prefix": ["<=","=<"],
+		"prefix": ["leq"],
 		"body": ["≤"],
 		"description": "≤"
 	},
 	"geq": {
-		"prefix": [">=","=>"],
+		"prefix": ["geq"],
 		"body": ["≥"],
 		"description": "≥"
 	},
@@ -553,19 +553,19 @@
 	},
 
 	"r]]": {
-		"prefix": ["]]","|]"],
+		"prefix": ["rb"],
 		"body": ["⟧"],
 		"description": "⟧"
 	},
 
 	"l[[": {
-		"prefix": ["[[","[|"],
+		"prefix": ["lb"],
 		"body": ["⟦"],
 		"description": "⟦"
 	},
 
 	"not=": {
-		"prefix": ["!=","<>"],
+		"prefix": ["notequal","nequal"],
 		"body": ["≠"],
 		"description": "≠"
 	},
