@@ -104,3 +104,7 @@ jaredly.reason-vscode
 ### Graphique
 coenraads.bracket-pair-colorizer-2  
 dcasella.monokai-plusplus  
+
+### Installation de Ocaml :
+
+https://www.youtube.com/watch?v=mlpLVgtbtwg  
