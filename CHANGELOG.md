@@ -77,3 +77,4 @@
 
 - Modification : 
     - ReadMe : Ajout de la liste des extensions utiles.
+    - Correction de bug avec les fonctions liées aux String

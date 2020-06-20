@@ -242,7 +242,7 @@
 
 	"stringlen": {
 		"prefix": ["String.length"],
-		"body": ["String.length ${0:<tableau>}"],
+		"body": ["String.length ${1:<chaine>}"],
 		"description": "Créer un tableau (mutable) de longueur len remplie de value "
 	},
     
