@@ -1,13 +1,13 @@
 {
-	"name": "apollo-ocaml",
-	"displayName": "Apollo - Extension Ocaml",
-	"description": "Extension Ocaml - Maths Sup/Spé",
-	"version": "0.1.4",
+	"name": "apollo-cpge",
+	"displayName": "Apollo - Extension CPGE",
+	"description": "Extension CPGE - Maths Sup/Spé",
+	"version": "0.1.5",
 	"publisher": "leoSAMUEL",
 	"icon": "images/apollo.png",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/leosamuel64/Apollo_Ocaml"
+		"url": "https://github.com/leosamuel64/Apollo_CPGE"
 	},
 	"engines": {
 		"vscode": "^1.42.0"
@@ -23,8 +23,11 @@
 			{
 				"language": "ocaml",
 				"path": "./snippets/snippets_ocaml.json"
+			},
+			{
+				"language": "python",
+				"path": "./snippets/snippets_python.json"
 			}
-			
 		],
 		"keybindings": [
 			{

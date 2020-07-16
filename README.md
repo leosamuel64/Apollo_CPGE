@@ -2,9 +2,10 @@
 
 Extension inspirée de  : https://gitlab.com/otumn/hermes-ocaml.git
 
-Version adaptée au programme d'Option Informatique de Maths Sup/Spé.
+Version adaptée au programme d'Option Informatique et d'IPT de Maths Sup/Spé.
 
 Permet d'avoir l'**autocompletion** et les **raccourcis** pour Ocaml.
+Permet d'ajouter les **symboles mathématiques** courants et les **lettres grecques**.
 
 ## Features
 
@@ -105,6 +106,9 @@ jaredly.reason-vscode
 coenraads.bracket-pair-colorizer-2  
 dcasella.monokai-plusplus  
 
-### Installation de Ocaml :
+### Installation de Ocaml sur VScode en WSL :
 
-https://www.youtube.com/watch?v=mlpLVgtbtwg  
+https://www.youtube.com/watch?v=mlpLVgtbtwg
+
+Pour utiliser l'autocompletion dans un commentaire : modifier la ligne de settings.json (settings, Text Editor, Suggestions)  
+    "editor.quickSuggestions": true

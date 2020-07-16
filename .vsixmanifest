@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Language="en-US" Id="apollo-ocaml" Version="0.1.4" Publisher="leoSAMUEL"/>
-    <DisplayName>Apollo - Extension Ocaml</DisplayName>
-    <Description xml:space="preserve">Extension Ocaml - Maths Sup/Spé</Description>
+    <Identity Language="en-US" Id="apollo-cpge" Version="0.1.5" Publisher="leoSAMUEL"/>
+    <DisplayName>Apollo - Extension CPGE</DisplayName>
+    <Description xml:space="preserve">Extension CPGE - Maths Sup/Spé</Description>
     <Tags>snippet,keybindings</Tags>
     <Categories>Snippets</Categories>
     <GalleryFlags>Public</GalleryFlags>
@@ -14,10 +14,10 @@
       <Property Id="Microsoft.VisualStudio.Code.ExtensionPack" Value="" />
       <Property Id="Microsoft.VisualStudio.Code.LocalizedLanguages" Value="" />
       
-        <Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/leosamuel64/Apollo_Ocaml" />
-        <Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="https://github.com/leosamuel64/Apollo_Ocaml" />
+        <Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/leosamuel64/Apollo_CPGE" />
+        <Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="https://github.com/leosamuel64/Apollo_CPGE" />
         
-          <Property Id="Microsoft.VisualStudio.Services.Links.Repository" Value="https://github.com/leosamuel64/Apollo_Ocaml" />
+          <Property Id="Microsoft.VisualStudio.Services.Links.Repository" Value="https://github.com/leosamuel64/Apollo_CPGE" />
         
       
       

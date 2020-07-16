@@ -77,3 +77,4 @@
 
 - Modification : 
     - ReadMe : Ajout de la liste des extensions utiles.
+    - Ajout de la compatibilité avec Python pour les symboles et les lettres grecques
