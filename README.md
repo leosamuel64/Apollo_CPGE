@@ -1,4 +1,4 @@
-# Apollo - Ocaml Extension
+# Apollo - CPGE Extension
 
 Extension inspirée de  : https://gitlab.com/otumn/hermes-ocaml.git
 
