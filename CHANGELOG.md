@@ -73,8 +73,9 @@
     - Lettres grecques
     - Symboles Mathématiques
     
-**(0.1.5) -- SOON :** 
+**(0.1.5) -- 16/07/2020 :** 
 
 - Modification : 
-    - ReadMe : Ajout de la liste des extensions utiles.
+    - ReadMe : Ajout de la liste des extensions utiles et de la procédure d'installation.
+    - Wiki : Ajout de la documentation sur Github
     - Ajout de la compatibilité avec Python pour les symboles et les lettres grecques
