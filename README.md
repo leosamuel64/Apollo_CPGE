@@ -1,8 +1,6 @@
 # Apollo - CPGE Extension
 
-Extension inspirée de  : https://gitlab.com/otumn/hermes-ocaml.git
-
-Version adaptée au programme d'Option Informatique et d'IPT de Maths Sup/Spé.
+Extension adaptée au programme d'Option Informatique et d'IPT de Maths Sup/Spé.
 
 Permet d'avoir l'**autocompletion** et les **raccourcis** pour Ocaml.
 Permet d'ajouter les **symboles mathématiques** courants et les **lettres grecques**.
