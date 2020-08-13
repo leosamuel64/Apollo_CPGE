@@ -30,7 +30,7 @@ Installez les extensions suivantes :
 
 ### Mise en place de Apollo dans VScode
 
-Pour utiliser l'autocompletion dans un commentaire : modifier la ligne de settings.json (`Ctrl+P`, ou avec les menus : settings -> Text Editor -> Suggestions)  
+Pour utiliser l'autocompletion dans un commentaire : modifiez la ligne de settings.json (`Ctrl+P`, ou avec les menus : settings -> Text Editor -> Suggestions)  
 
 "editor.quickSuggestions": true
 
