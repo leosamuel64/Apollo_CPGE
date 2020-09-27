@@ -79,3 +79,10 @@
     - ReadMe : Ajout de la liste des extensions utiles et de la procédure d'installation.
     - Wiki : Ajout de la documentation sur Github
     - Ajout de la compatibilité avec Python pour les symboles et les lettres grecques
+
+**(0.1.6) -- 27/09/2020 :**
+
+- Ajout de symbole
+    - Partie entière
+- Ajout de fonction Ocaml
+    - List.rev

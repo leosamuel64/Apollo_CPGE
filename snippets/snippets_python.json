@@ -287,6 +287,11 @@
 		"description": "∃"
 	},
 
+	"int": {
+		"prefix": ["in","entiere"],
+		"body": [" ⌞${1:x}⌟"],
+		"description": "⌞x⌟"
+	},
 	
 	"I don't know": {
 		"prefix": ["idk","python"],

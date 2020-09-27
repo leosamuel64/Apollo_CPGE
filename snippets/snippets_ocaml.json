@@ -185,6 +185,12 @@
 		"description": "applique une procédure à un tableau"
 	},
 
+	"listrev": {
+		"prefix": ["List.rev"],
+		"body": ["List.rev ${1:<l>}"],
+		"description": "Renvoie la liste renversée"
+	},
+
 	"listhd": {
 		"prefix": ["List.hd"],
 		"body": ["List.hd ${1:<l>}"],
@@ -610,6 +616,12 @@
 		"prefix": ["exists"],
 		"body": ["∃"],
 		"description": "∃"
+	},
+
+	"int": {
+		"prefix": ["in","entiere"],
+		"body": [" ⌞${1:x}⌟"],
+		"description": "⌞x⌟"
 	},
 
 	
