@@ -86,3 +86,8 @@
     - Partie entière
 - Ajout de fonction Ocaml
     - List.rev
+
+**(0.1.7) -- 09/10/2020 :**
+
+- Ajout des lettres gothiques majuscules
+- Ajout de l'auto-completion pour les intervalles d'entiers

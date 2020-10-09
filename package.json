@@ -2,7 +2,7 @@
 	"name": "apollo-cpge",
 	"displayName": "Apollo - Extension CPGE",
 	"description": "Extension CPGE - OCaml et Python - Maths Sup/Spé",
-	"version": "0.1.6",
+	"version": "0.1.7",
 	"publisher": "leoSAMUEL",
 	"icon": "images/apollo.png",
 	"repository": {

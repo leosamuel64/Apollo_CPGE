@@ -619,11 +619,152 @@
 	},
 
 	"int": {
-		"prefix": ["in","entiere"],
+		"prefix": ["int","entiere"],
 		"body": [" ⌞${1:x}⌟"],
 		"description": "⌞x⌟"
 	},
 
+	"AG": {
+		"prefix": ["AG"],
+		"body": ["𝔄"],
+		"description": "𝔄"
+	},
+	"BG": {
+		"prefix": ["BG"],
+		"body": ["𝔅"],
+		"description": "𝔅"
+	},
+	"CG": {
+		"prefix": ["CG"],
+		"body": ["ℭ"],
+		"description": "ℭ"
+	},
+	"DG": {
+		"prefix": ["DG"],
+		"body": ["𝔇"],
+		"description": "𝔇"
+	},
+	"EG": {
+		"prefix": ["EG"],
+		"body": ["𝔈"],
+		"description": "𝔈"
+	},
+	"FG": {
+		"prefix": ["FG"],
+		"body": ["𝔉"],
+		"description": "𝔉"
+	},
+	"GG": {
+		"prefix": ["GG"],
+		"body": ["𝔊"],
+		"description": "𝔊"
+	},
+	"HG": {
+		"prefix": ["HG"],
+		"body": ["ℌ"],
+		"description": "ℌ"
+	},
+	"IG": {
+		"prefix": ["IG"],
+		"body": ["ℐ"],
+		"description": "ℐ"
+	},
+	"JG": {
+		"prefix": ["JG"],
+		"body": ["𝔍"],
+		"description": "𝔍"
+	},
+	"KG": {
+		"prefix": ["KG"],
+		"body": ["𝔎"],
+		"description": "𝔎"
+	},
+	"LG": {
+		"prefix": ["LG"],
+		"body": ["𝔏"],
+		"description": "𝔏"
+	},
+	"MG": {
+		"prefix": ["MG"],
+		"body": ["𝔐"],
+		"description": "𝔐"
+	},
+	"NG": {
+		"prefix": ["NG"],
+		"body": ["𝔑"],
+		"description": "𝔑"
+	},
+	"OG": {
+		"prefix": ["OG"],
+		"body": ["𝔒"],
+		"description": "𝔒"
+	},
+	"PG": {
+		"prefix": ["PG"],
+		"body": ["𝔓"],
+		"description": "𝔓"
+	},
+	"QG": {
+		"prefix": ["QG"],
+		"body": ["𝔔"],
+		"description": "𝔔"
+	},
+	"RG": {
+		"prefix": ["RG"],
+		"body": ["ℜ "],
+		"description": "ℜ "
+	},
+	"SG": {
+		"prefix": ["SG"],
+		"body": ["𝔖"],
+		"description": "𝔖"
+	},
+	"TG": {
+		"prefix": ["TG"],
+		"body": ["𝔗"],
+		"description": "𝔗"
+	},
+	"UG": {
+		"prefix": ["UG"],
+		"body": ["𝔘"],
+		"description": "𝔘"
+	},
+	"VG": {
+		"prefix": ["VG"],
+		"body": ["𝔙"],
+		"description": "𝔙"
+	},
+	"WG": {
+		"prefix": ["WG"],
+		"body": ["𝔚"],
+		"description": "𝔚"
+	},
+	"XG": {
+		"prefix": ["XG"],
+		"body": ["𝔛"],
+		"description": "𝔛"
+	},
+	"YG": {
+		"prefix": ["YG"],
+		"body": ["𝔜"],
+		"description": "𝔜"
+	},
+	"ZG": {
+		"prefix": ["ZG"],
+		"body": ["ℨ"],
+		"description": "ℨ"
+	},
+
+	"binin": {
+		"prefix": ["bclose"],
+		"body": ["⟦${1:a},${2:b}⟧"],
+		"description": "⟦a,b⟧"
+	},
+	"binout": {
+		"prefix": ["bopen"],
+		"body": ["⟦${1:a},${2:b}⟦"],
+		"description": "⟦a,b⟦"
+	},
 	
 	"I don't know": {
 		"prefix": ["idk","ocaml"],
